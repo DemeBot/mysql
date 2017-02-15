@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM armhf/alpine:3.4
 
 MAINTAINER Arun Kalahasti <arun.kalahasti@mavs.uta.edu>
 
