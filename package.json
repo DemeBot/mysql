@@ -1,0 +1,16 @@
+{
+  "name": "mysql-migration",
+  "version": "1.0.0",
+  "description": "MySQL migration system to ensure data integrity between different revisions of backend data structure.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "db-migrate": "db-migrate"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "db-migrate": "^0.10.0-beta.20",
+    "db-migrate-mysql": "^1.1.10",
+    "mysql": "^2.13.0"
+  }
+}
