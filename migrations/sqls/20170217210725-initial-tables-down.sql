@@ -7,6 +7,7 @@ SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 
+USE `DEMEBOT_DB` ;
 
 -- -----------------------------------------------------
 -- Table `DEMEBOT_DB`.`TOOL_USE_LOG`
@@ -57,11 +58,6 @@ DROP TABLE IF EXISTS `DEMEBOT_DB`.`TOOL_LIST` ;
 -- Table `DEMEBOT_DB`.`PLANT_TYPES`
 -- -----------------------------------------------------
 DROP TABLE IF EXISTS `DEMEBOT_DB`.`PLANT_TYPES` ;
-
--- -----------------------------------------------------
--- Schema DEMEBOT_DB
--- -----------------------------------------------------
-DROP SCHEMA IF EXISTS `DEMEBOT_DB` ;
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;

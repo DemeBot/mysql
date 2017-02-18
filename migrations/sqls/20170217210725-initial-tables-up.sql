@@ -18,11 +18,12 @@ USE `DEMEBOT_DB` ;
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `DEMEBOT_DB`.`PLANT_TYPES` (
   `id` INT NOT NULL AUTO_INCREMENT,
+  `name` VARCHAR(45) NOT NULL,
   `height` FLOAT UNSIGNED NOT NULL,
   `width` FLOAT UNSIGNED NOT NULL,
   `depth` FLOAT NOT NULL,
-  `name` VARCHAR(45) NOT NULL,
   `description` TEXT NULL,
+  `days_to_germinate` TINYINT UNSIGNED NOT NULL,
   `deleted_at` DATETIME NULL,
   PRIMARY KEY (`id`))
 ENGINE = InnoDB
