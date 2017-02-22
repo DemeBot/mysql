@@ -10,54 +10,29 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 USE `DEMEBOT_DB` ;
 
 -- -----------------------------------------------------
--- Table `DEMEBOT_DB`.`TOOL_USE_LOG`
+-- Table `DEMEBOT_DB`.`PLOT_CONTENTS`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `DEMEBOT_DB`.`TOOL_USE_LOG` ;
+DROP TABLE IF EXISTS `DEMEBOT_DB`.`PLOT_CONTENTS` ;
 
 -- -----------------------------------------------------
--- Table `DEMEBOT_DB`.`SYSTEM_ACTIONS`
+-- Table `DEMEBOT_DB`.`PLOT_POSITIONS`
 -- -----------------------------------------------------
-DROP TABLE IF EXISTS `DEMEBOT_DB`.`SYSTEM_ACTIONS` ;
-
--- -----------------------------------------------------
--- Table `DEMEBOT_DB`.`PLANT_ACTION_LOG`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `DEMEBOT_DB`.`PLANT_ACTION_LOG` ;
-
--- -----------------------------------------------------
--- Table `DEMEBOT_DB`.`PLANT_ACTIONS`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `DEMEBOT_DB`.`PLANT_ACTIONS` ;
-
--- -----------------------------------------------------
--- Table `DEMEBOT_DB`.`ACTION_TYPES`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `DEMEBOT_DB`.`ACTION_TYPES` ;
-
--- -----------------------------------------------------
--- Table `DEMEBOT_DB`.`PLANT_LIST`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `DEMEBOT_DB`.`PLANT_LIST` ;
-
--- -----------------------------------------------------
--- Table `DEMEBOT_DB`.`BAY_LIST`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `DEMEBOT_DB`.`BAY_LIST` ;
-
--- -----------------------------------------------------
--- Table `DEMEBOT_DB`.`PLOT_LIST`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `DEMEBOT_DB`.`PLOT_LIST` ;
-
--- -----------------------------------------------------
--- Table `DEMEBOT_DB`.`TOOL_LIST`
--- -----------------------------------------------------
-DROP TABLE IF EXISTS `DEMEBOT_DB`.`TOOL_LIST` ;
+DROP TABLE IF EXISTS `DEMEBOT_DB`.`PLOT_POSITIONS` ;
 
 -- -----------------------------------------------------
 -- Table `DEMEBOT_DB`.`PLANT_TYPES`
 -- -----------------------------------------------------
 DROP TABLE IF EXISTS `DEMEBOT_DB`.`PLANT_TYPES` ;
+
+-- -----------------------------------------------------
+-- Table `DEMEBOT_DB`.`BAYS`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `DEMEBOT_DB`.`BAYS` ;
+
+-- -----------------------------------------------------
+-- Table `DEMEBOT_DB`.`TOOLS`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `DEMEBOT_DB`.`TOOLS` ;
 
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
